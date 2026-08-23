@@ -1,7 +1,7 @@
 # PicoBlaze 3 Assembler for Windows
 
 For convenience, we provide a compiled version of [Jan Viktorin's picoblaze assembler](https://github.com/jviki/kcpsm3) 
-for Windows PCs and a Drag&Drop batch file. Note that Ken Chapman's original KCPSM3 no longer works on 64-Bit Windows.
+for Windows PCs and a Drag&Drop batch file. Note that Ken Chapman's original KCPSM3 no longer works on 64-Bit Windows. Sources adapted to GCC.
 
 This is assembler for Xilinx processor KCPSM3. All C source codes are provided under GNU GPL license.
 In the doc/ directory you can find a documentation. If you make any changes to the program, you can add
