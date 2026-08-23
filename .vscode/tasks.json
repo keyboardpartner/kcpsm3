@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "shell",
+      "label": "Build full PICO.EXE project wit GCC",
+      "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+      "args": [
+        "-std=c99",
+        "-pedantic",
+        "-Wall",
+        "-Wextra",
+        "-g",
+        "scanner.c",
+        "stab_tree.c",
+        "buffer.c",
+        "main.c",
+        "assembler.c",
+        "output.c",
+        "wait_queue.c",
+        "-o",
+        "pico.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}\\src"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build",
+      "detail": "Builds the complete assembler executable"
+    }
+  ]
+}

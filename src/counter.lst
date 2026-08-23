@@ -1,0 +1,11 @@
+# Machine generated listing of compilation
+# Format: <value> <tab> <name>
+# <value> is hexadecimal number (2 digits = CONSTANT, 3 digits = ADDRESS)
+80 	port_counter
+5E 	delay_loop
+005	delay
+001	next
+006	rpt3
+008	rpt2
+00A	rpt1
+000	start
